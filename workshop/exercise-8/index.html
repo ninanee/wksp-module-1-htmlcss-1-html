@@ -1,1 +1,79 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <title>excercise 8</title>
+    <h1>Registration form</h1> 
+    <form action=""> <!-- start of the form for the various inputs -->
+        <div><!-- the first line: username and password -->
+            <label for="username">Username
+                <input type="text" required>
+            </label>
+            <label for="password">password
+                <input type="password" required>
+            </label>
+        </div>
+        <div><!-- email -->
+            <label for="email">Email
+                <input type="email" required>
+            </label>
+        </div>
+        <div><!-- Type Of Taxi -->
+        <label for="typeOfTaxi">Which taxi do you require?</label>
+            <div>
+                <label for="Car">
+                    <input type="radio" name="taxi" value="Car" required>Car
+                </label>
+            </div>
+            <div>
+                <label for="Van">
+                    <input type="radio" name="taxi" value="Van" required>Van
+                </label>
+            </div>
+            <div>
+                <label for="TukTuk">
+                    <input type="radio" name="taxi" value="TukTuk" required>Tuk Tuk
+                </label>
+            </div>
+        </div>
+        <div><!-- this art of the form is not required to be filled by the user -->
+            <label for="extras">Extras</label><!-- Extras. this is a checklist with boxes where the ser can choose multiple boxes -->
+            <div>
+                <label for="babySeat">
+                <input type="checkbox" name="extras">Baby seat
+                </label>
+            </div>
+            <div>
+                <label for="wheelchairAccess">
+                    <input type="checkbox" name="extras">Wheelchair Access
+                </label>
+            </div>
+            <div>
+                <label for="stockTip">
+                    <input type="checkbox" name="extras">Stock Tip
+                </label>
+            </div>
+        </div>
+        <div><!-- drop down menu -->
+            <label for="pickup">Pickup
+                <select>
+                    <option value="selectOne">Select One</option>
+                    <option value="taxiOffice">Taxi Office</option>
+                    <option value="townHall">Town Hall</option>
+                    <option value="we'llGuess!">We'll Guess!</option>
+                </select>
+            </label>
+        </div>
+        <div><!-- special - extra comments -->
+            <label for="special">Special
+                <textarea name="special"></textarea>
+            </label>
+        </div>
+        <div><!-- this will submit the entire form, and makes sure that 'required' was filled -->
+            <label for="submit">
+                <input type="submit" value="Submit">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
