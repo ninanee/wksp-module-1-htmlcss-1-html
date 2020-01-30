@@ -9,16 +9,16 @@
 
 ---
 
-- What is the internet?
-- What is the web?
-- What is a website?
+- What is the internet? the information, the infarstructure
+- What is the web? what allows the connection
+- What is a website? the thing that is accessed
 
 ---
 
 ## Let’s take a trip to [Wikipedia](https://en.wikipedia.org/wiki/Montreal)
 
 - What happened?
-- What are the steps that lead us to seeing the content from that page?
+- What are the steps that lead us to seeing the content from that page? sends a request, data comes to my computer, and my computer renders it
 
 ---
 

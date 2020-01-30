@@ -3,13 +3,13 @@
 ---
 
 _actually it's HyperText Markup Language_
-
+<not a langudge, just a markup>
 ---
 
 ## Pop Quiz!
 
-- What is HTML?
-- What is CSS?
+- What is HTML? content, markup, structure, what oy uhave to say
+- What is CSS? style
 
 ---
 
@@ -48,6 +48,7 @@ _actually it's HyperText Markup Language_
 
 </html>
 ```
+only whars is a the "body" element will shoe on screen 
 
 [More about the doctype.](https://www.w3schools.com/tags/tag_doctype.asp)
 
@@ -56,6 +57,7 @@ _actually it's HyperText Markup Language_
 ## Choosing the RIGHT tag for the job
 
 Tags should be chosen based on the semantic value of the content
+the content determins the tag
 
 ---
 
@@ -69,7 +71,7 @@ This means that these tags are essentially off-limits
 
 `<big>`, `<small>`, `<i>`, `<b>`, `<br />`, `&nbsp;`, `<hr />`
 
-They have no semantic value.
+They have no semantic value. but they pretend to.
 
 ---
 
@@ -85,13 +87,13 @@ Anytime you catch yourself thinking...
 
 1. It pleases Google.
     - Easier for its algorithm to crawl and index site
-    - Meaning a better ranking in searhc results
+    - Meaning a better ranking in search results
     - Less of a need to "game" the Google algorithm
 
 ---
 
 ### Semantic HTML = Accessibility
-
+goog HTML makes it easier for screenreaders to interpert the content and make it accesible.
 <img src="./assets/accessibility_stats.png" />
 
 ---
@@ -126,15 +128,15 @@ Anytime you catch yourself thinking...
 
 ## Common HTML Tags (4.01+)
 
-- Block-level elements
-    - `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, `<p>`
-    - `<ul>`, `<ol>`, `<li>`, `<blockquote>`, `<table>`,
-    - `<form>`
-    - `<div>`
-- Inline elements
-    - `<img>`, `<a>`, `<span>`, `<button>`
+- Block-level elements - each block in "under" the previous. a new line
+    - `<h1>` -(there should be only one h1 on a page), `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, `<p>`
+    - `<ul>`, `<ol>`, `<li>`, `<blockquote>` - , `<table>` - kinda like spreadsheet,
+    - `<form>` - filling a form
+    - `<div>` - no semantic value, we use it a a box of contant for styling.
+- Inline elements - won't move the contant to a new line
+    - `<img>`, `<a>` - link, `<span>` - mini `<div>` for in line values, `<button>`
     - `<input>`, `<label>`, `<select>`, `<textarea>`
-    - `<abbr>` 
+    - `<abbr>` - abbreviation, when hovering it will show ontop
 
 [Source](https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php)
 
@@ -142,8 +144,8 @@ Anytime you catch yourself thinking...
 
 ## HTML 5 Semantic Tags
 
-- `<header>`, `<footer>`, `<nav>`, `<section>`, `<main>`, `<aside>`
-- `<figure>`, `<figcaption>`, `<summary>`
+- `<header>`, `<footer>`, `<nav>`- navigation bar, `<section>`, `<main>` - the box of the sections and articles, `<aside>`
+- `<figure>` - for example if the image in a chart r a gif, `<figcaption>`, `<summary>`
 - `<time>`, 
 
 ---
