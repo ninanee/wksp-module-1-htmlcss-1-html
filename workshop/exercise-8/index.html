@@ -6,8 +6,46 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Registration form</h1>
     <form>
+        <label>UserName</label> 
+        <input type="text" maxlength="10" required />
+        <label>password</label> 
+        <input type="text" maxlength="10"/>
+
+      <div><label>Email</label> 
+        <input type="text" maxlength="10"/></div>
         
+
+        <br>
+        <p>Which taxi do you require?</p> 
+        <input type="radio" value="Car">
+        <label for="Car">Car</label><br>
+        <input type="radio" value="Van">
+        <label for="Van">Van</label><br>
+        <input type="radio" value="Tuk Tuk">
+        <label for="Tuk Tuk">Tuk Tuk</label><br>
+
+        <p>Extras</p> 
+        <input type="checkbox" value="Baby Seat">
+        <label for="Baby Seat">Baby Seat</label><br>
+        <input type="checkbox" value="Wheelchair Access">
+        <label for="Wheelchair Access">Wheelchair Access</label><br>
+        <input type="checkbox" value="Stock Tips">
+        <label for="Stock Tips">Stock Tips</label><br>
+
+        <label for="cars">Pickup</label>
+        <select id="cars" name="cars">
+            <option value="select one">select one</option>
+             <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <br>
+        <label>Special</label><textarea></textarea>
+        <br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
